@@ -5,7 +5,7 @@ import scrapy
 class AsxDataExtract(scrapy.Spider):
     name='asxdataextract' #call by scrapy crawl asxdataextract -o output.csv 
     allowed_domains = ["listcorp.com",]
-    start_urls = ["https://www.listcorp.com/asx/sectors/information-technology"]
+    start_urls = ["https://www.listcorp.com/asx/sectors/information-technology"] # start web page to crawl
     #category = 'information-technology'
     #links = {}
     print("Test")
