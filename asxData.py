@@ -16,8 +16,7 @@ class AsxDataExtract(scrapy.Spider):
         #query= '//*[@class ="v-table__overflow"]//tbody/tr'
         #<div class="v-table__overflow">
         #<div class="elevation-1 SectorPageSubCategoryPage__companiesTable">
-        
-               
+                
         urls = response.xpath(query).extract()
         print("URLS!!!!!  ",urls)
         print("Response  ",response.xpath('class="elevation-1 SectorPageSubCategoryPage__companiesTable"'))
