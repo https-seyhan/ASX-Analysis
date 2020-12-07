@@ -11,8 +11,7 @@ class AsxDataExtract(scrapy.Spider):
     print("Test")
 
     def parse(self, response):
-
-        
+    
         query = '/div[@class="elevation-1 SectorPageSubCategoryPage__companiesTable"]//*'
         #query= '//*[@class ="v-table__overflow"]//tbody/tr'
         #<div class="v-table__overflow">
