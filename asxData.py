@@ -3,7 +3,7 @@ import scrapy
 #run as scrapy crawl asxdataextract -o output.csv in the terminal
 
 class AsxDataExtract(scrapy.Spider):
-    name='asxdataextract' #call by scrapy crawl asxdataextract -o output.csv 
+    name='asxdataextract' # call by scrapy crawl asxdataextract -o output.csv 
     allowed_domains = ["listcorp.com",]
     start_urls = ["https://www.listcorp.com/asx/sectors/information-technology"] # start web page to crawl
     #category = 'information-technology'
