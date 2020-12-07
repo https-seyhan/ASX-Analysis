@@ -1,4 +1,4 @@
-import scrapy
+import scrapy # for NLP Analysis on scapped text
 
 #run as scrapy crawl asxdataextract -o output.csv in the terminal
 
